@@ -36,6 +36,21 @@ const MediaData = [
       "https://github.com/nomadkitty/ifit-challenge/blob/master/src/assets/images/wired_logo.png?raw=true",
     review: "Literally transports you from home to wherever you choose to run.",
   },
+  {
+    id: 6,
+    name: "Mashable",
+    logo:
+      "https://github.com/nomadkitty/ifit-challenge/blob/master/src/assets/images/mashable_logo.png?raw=true",
+    review: "Breathes new life into a tired, old running routine.",
+  },
+  {
+    id: 7,
+    name: "Gear Junkie",
+    logo:
+      "https://github.com/nomadkitty/ifit-challenge/blob/master/src/assets/images/gearjunkie-vector-logo.png?raw=true",
+    review:
+      "You focus on putting in the work, and the technology handles the rest.",
+  },
 ];
 
 export default MediaData;

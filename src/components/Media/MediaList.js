@@ -16,7 +16,6 @@ const Arrow = (props) => {
 
 const MediaList = () => {
   const settings = {
-    centerMode: true,
     dots: false,
     infinite: true,
     slideToShow: 3,

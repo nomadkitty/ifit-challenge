@@ -20,7 +20,7 @@
     }
     button {
       @include button(392px, 56px, $btn, $primary);
-      box-shadow: 0px 0px1px rgba(0, 0, 0, 0.12);
+      box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.12);
       margin-top: 6rem;
     }
   }

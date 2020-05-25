@@ -3,6 +3,9 @@
   width: $width;
   height: $height;
   border-radius: 4px;
+  border: none;
   background: $bg-color;
+  color: $color;
+  text-decoration: none;
   box-shadow: 0px 1px2px rgba(46, 49, 52, 0.4);
 }

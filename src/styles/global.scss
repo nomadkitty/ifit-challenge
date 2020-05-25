@@ -9,6 +9,7 @@ html {
 html,
 body {
   margin: 0;
+  font-family: $openSans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -37,9 +38,4 @@ p {
 img {
   max-width: 100%;
   height: auto;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

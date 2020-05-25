@@ -1,0 +1,30 @@
+.hero {
+  // background-image: url("../../assets/images/gmapsinworkout.jpeg");
+  position: relative;
+  .heroContent {
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      color: $primary;
+      font-family: $openSans;
+      font-size: 72px;
+      font-weight: 400;
+      line-height: 90px;
+      text-align: center;
+      letter-spacing: 1px;
+      margin-top: 25rem;
+    }
+    button {
+      @include button(392px, 56px, $btn, $primary);
+      box-shadow: 0px 0px1px rgba(0, 0, 0, 0.12);
+      margin-top: 6rem;
+    }
+  }
+}

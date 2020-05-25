@@ -13,7 +13,7 @@ const panes = [
   },
 ];
 
-const ProductNav = (props) => {
+const ProductNav = () => {
   return (
     <nav>
       <Tab menu={{ attached: false, tabular: false }} panes={panes} />

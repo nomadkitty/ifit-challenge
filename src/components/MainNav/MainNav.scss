@@ -1,0 +1,23 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  align-items: center;
+  margin: 2rem 4.2rem;
+  // border: 1px solid $accent;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 6rem;
+    a {
+      margin: 0 2rem;
+      color: $accent;
+    }
+  }
+  button {
+    @include button(9rem, 3.6rem, $btn, $primary);
+    font-size: 14px;
+  }
+}

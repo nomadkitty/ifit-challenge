@@ -1,13 +1,14 @@
 import React from "react";
+import { Card, Image } from "semantic-ui-react";
 
 const MediaCard = (props) => {
   const { name, logo, review } = props.review;
 
   return (
-    <div className="mediaCard">
-      {/* <img src={require(logo)} alt={name} /> */}
-      <p>{review}</p>
-    </div>
+    <Card>
+      <Image src={logo} alt={name} />
+      <Card.Description>{review}</Card.Description>
+    </Card>
   );
 };
 

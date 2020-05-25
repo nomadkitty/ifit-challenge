@@ -1,0 +1,13 @@
+.ui.menu {
+  font-size: 14px;
+  font-family: $openSans;
+  height: 46px;
+  border-bottom: solid 1px #d5d6d6;
+  .item {
+    padding: 0 4rem;
+  }
+  .active.item {
+    background: $primary;
+    color: $accent;
+  }
+}

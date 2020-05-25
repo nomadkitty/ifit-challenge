@@ -1,6 +1,15 @@
+@import "./styles/variables.scss";
+@import "./styles/mixins.scss";
+
+@import "./styles/global.scss";
+
+@import "./components/ProductNav/ProductNav.scss";
+
 .App {
   text-align: center;
-  border: 1px solid red;
+  // border: 1px solid red;
   width: 1440px;
   margin: 0 auto;
+  color: $accent;
+  font-family: $openSans;
 }

@@ -5,6 +5,7 @@ import "./styles/index.scss";
 import ProductNav from "./components/ProductNav/ProductNav";
 import MainNav from "./components/MainNav/MainNav";
 import Hero from "./components/Hero/Hero";
+import MediaList from "./components/Media/MediaList";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <MainNav />
       </header>
       <Hero />
+      <MediaList />
     </div>
   );
 }

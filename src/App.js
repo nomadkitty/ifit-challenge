@@ -8,6 +8,7 @@ import ProductNav from "./components/ProductNav/ProductNav";
 import MainNav from "./components/MainNav/MainNav";
 import Hero from "./components/Hero/Hero";
 import MediaList from "./components/Media/MediaList";
+import DesktopLibraryList from "./components/DesktopLibrary/DesktopLibraryList";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </header>
       <Hero />
       <MediaList />
+      <DesktopLibraryList />
     </div>
   );
 }

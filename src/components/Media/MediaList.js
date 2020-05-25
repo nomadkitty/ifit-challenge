@@ -28,9 +28,6 @@ const MediaList = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-          centerMode: true,
         },
       },
       {

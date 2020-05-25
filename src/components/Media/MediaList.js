@@ -1,23 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import MediaData from "../../data/MediaData";
 import MediaCard from "./MediaCard";
 
+const Arrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block" }}
+      onClick={onClick}
+    />
+  );
+};
+
 const MediaList = () => {
-  // const [slide, setSlide] = useState();
   const settings = {
     centerMode: true,
-    // centerPadding: `50px`,
     dots: false,
     infinite: true,
-    speed: 1000,
-    autoplaySpeed: 3000,
     slideToShow: 3,
     slideToScroll: 1,
-    fadeIn: false,
-    autoplay: false,
-    pauseOnHover: false,
-    arrows: true,
+    nextArrow: <Arrow />,
+    prevArrow: <Arrow />,
     responsive: [
       {
         breakpoint: 1000,
@@ -40,13 +45,13 @@ const MediaList = () => {
   };
 
   return (
-    <>
+    <div className="mediaSlider">
       <Slider {...settings}>
         {MediaData.map((ele) => (
           <MediaCard key={ele.id} review={ele} />
         ))}
       </Slider>
-    </>
+    </div>
   );
 };
 

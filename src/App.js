@@ -10,6 +10,7 @@ import Hero from "./components/Hero/Hero";
 import MediaList from "./components/Media/MediaList";
 import DesktopLibraryList from "./components/DesktopLibrary/DesktopLibraryList";
 import EquipmentList from "./components/Equipment/EquipmentList";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <MediaList />
       <DesktopLibraryList />
       <EquipmentList />
+      <Footer />
     </div>
   );
 }

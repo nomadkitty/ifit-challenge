@@ -3,7 +3,7 @@ const FooterData = {
   account: ["Log In", "Create Account"],
   support: ["Help Center", "Accessibility"],
   socialMedia: [
-    "../assets/icons/socialMedia/youtube.png",
+    "https://github.com/nomadkitty/ifit-challenge/blob/master/src/assets/icons/socialMedia/youtube.png?raw=true",
     "../assets/icons/socialMedia/pinterest.png",
     "../assets/icons/socialMedia/facebook.png",
     "../assets/icons/socialMedia/twitter.png",

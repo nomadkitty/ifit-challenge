@@ -10,7 +10,6 @@ You can find our deployed project at: https://ifit-challenge.now.sh/
 | Jojo(Qingjia) Zhang [<img src="https://img.icons8.com/nolan/64/github.png" width="25">](https://github.com/nomadkitty) [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="25">](https://www.linkedin.com/in/jojo-zhang) |
 
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)
-![React](https://img.shields.io/badge/react-v16.7.0--alpha.2-blue.svg)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Tasks

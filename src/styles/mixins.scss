@@ -9,3 +9,29 @@
   text-decoration: none;
   box-shadow: 0px 1px2px rgba(46, 49, 52, 0.4);
 }
+
+// fade in animation
+@mixin fadeIn($time) {
+  animation: fade-in-bck $time cubic-bezier(0.39, 0.575, 0.565, 1) both;
+
+  @-webkit-keyframes fade-in-bck {
+    0% {
+      transform: translateZ(80px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-bck {
+    0% {
+      transform: translateZ(80px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+}

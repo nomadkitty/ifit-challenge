@@ -17,6 +17,7 @@
       text-align: center;
       letter-spacing: 1px;
       margin-top: 25rem;
+      @include fadeIn(3s);
     }
     button {
       @include button(392px, 56px, $btn, $primary);

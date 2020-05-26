@@ -17,11 +17,11 @@ You can find our deployed project at: https://ifit-challenge.now.sh/
 
 - [x] Create a functioning web page according to the Sketch file
 - [x] Add mobile responsiveness
-Animation specific tasks: choose and complete at least one
+- Animation specific tasks: choose and complete at least one
 - [x] Animate and fade in hero text
 - [x] Animate cards in the grid section on hover
 - [ ] Animate and fade in cards in the iFit-enabled equipment section, when in view.
-JavaScript specific tasks: choose and complete at least one
+- JavaScript specific tasks: choose and complete at least one
 - [x] Create a functioning reviews slider (repeating the reviews is acceptable)
 - [x] Set up the language picker in the footer to "select" different languages (display a list of languages and replace the label when clicked)
 - [ ] Create a fixed header that hides once the user scrolls past the hero section

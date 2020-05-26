@@ -2,7 +2,7 @@
 
 This project is built for iFit Front End Developer test.
 
-You can find our deployed project at: https://ifit-challenge.now.sh/
+You can find this deployed project at: https://ifit-challenge.now.sh/
 
 ## Author/Applicant
 

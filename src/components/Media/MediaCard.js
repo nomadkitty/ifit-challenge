@@ -9,7 +9,7 @@ const MediaCard = (props) => {
         {/* <div className="mediaLogo"> */}
         <img src={logo} alt={name} />
         {/* </div> */}
-        <p>{review}</p>
+        <p>{`"${review}"`}</p>
       </div>
     </div>
   );

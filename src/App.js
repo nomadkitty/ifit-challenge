@@ -9,6 +9,7 @@ import MainNav from "./components/MainNav/MainNav";
 import Hero from "./components/Hero/Hero";
 import MediaList from "./components/Media/MediaList";
 import DesktopLibraryList from "./components/DesktopLibrary/DesktopLibraryList";
+import EquipmentList from "./components/Equipment/EquipmentList";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Hero />
       <MediaList />
       <DesktopLibraryList />
+      <EquipmentList />
     </div>
   );
 }

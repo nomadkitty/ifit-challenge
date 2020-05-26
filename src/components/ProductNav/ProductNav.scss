@@ -3,6 +3,9 @@
   font-family: $openSans;
   height: 46px;
   border-bottom: solid 1px #d5d6d6;
+  @media (max-width: $mobile) {
+    display: none;
+  }
   .item {
     padding: 0 4rem;
   }

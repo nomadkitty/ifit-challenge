@@ -4,12 +4,15 @@
   width: 95%;
   align-items: center;
   margin: 2rem 4.2rem;
-
+  @media (max-width: $mobile) {
+    flex-direction: column;
+  }
   nav {
     display: flex;
     justify-content: space-between;
     text-align: center;
     margin-right: 6rem;
+
     a {
       margin: 0 2rem;
       color: $accent;

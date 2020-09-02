@@ -6,7 +6,6 @@ You can find this deployed project at: https://ifit-challenge.now.sh/
 
 ## Author/Applicant
 
-| <img src="https://avatars2.githubusercontent.com/u/29263820?s=400&u=ca65e5ab491c5d49b11046bc262ee1e472ee7c14&v=4" width="200" /> |
 | Jojo(Qingjia) Zhang [<img src="https://img.icons8.com/nolan/64/github.png" width="25">](https://github.com/nomadkitty) [<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="25">](https://www.linkedin.com/in/jojo-zhang) |
 
 ![MIT](https://img.shields.io/packagist/l/doctrine/orm.svg)

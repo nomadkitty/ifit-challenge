@@ -35,7 +35,7 @@ You can find this deployed project at: https://ifit-challenge.now.sh/
 
 # Testing
 
-I tested the site in Chrome using Jest
+This app is tested with Jest
 
 # Installation Instructions
 
